@@ -13,23 +13,27 @@ The following is a community-driven tentative roadmap to future releases.
 
 | Feature | Status | Primary Contact | RFC | Issues | Documentation |
 | ------- | ------ | --------------- | --- | ------- | ------------- |
-| Component | *RFC Submitted* | Shawn T. Amundson | [PR for RFC #9](https://github.com/hyperledger/grid-rfcs/pull/9) | - | - |
-| Location | *Under Development* | Jessie Zamzow | [RFC #20](https://github.com/hyperledger/grid-rfcs/blob/master/text/0020-location.md) | ["location"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=location) | [Specification]({% link docs/0.1/grid_location_smart_contract_specification.md %}) |
-| Pike | *Implemented* | Darian Plumb | - | ["pike"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=pike) | [HOWTO]({% link docs/0.1/creating_organizations.md %}), [Specification]({% link docs/0.1/pike_transaction_family.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Pike), [CLI]({% link docs/0.1/references/cli/grid-agent-create.1.md %}) |
-| PostgreSQL Support | *Implemented* | Davey Newhall | - | ["postgres"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=postgres) | [CLI]({% link docs/0.1/references/cli/grid-database-migrate.1.md %}) |
-| Product | *Implemented* | Adeeb Ahmed | [RFC #5](https://github.com/hyperledger/grid-rfcs/blob/master/text/0005-product.md) | ["product"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=product) | [Overview]({% link docs/0.1/grid_product.md %}), [HOWTO]({% link docs/0.1/creating_products.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Product), [CLI]({% link docs/0.1/references/cli/grid-product-create.1.md %}) |
-| Sawtooth Support | *Implemented* | Ryan Banks | - | ["sawtooth"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=sawtooth) | - |
-| Schema | *Implemented* | Peter Schwarz | [RFC #4](https://github.com/hyperledger/grid-rfcs/blob/master/text/0000-grid-primitives.md) | ["schema"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=schema) | [Specification]({% link docs/0.1/grid_schema_family_specification.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Schema), [CLI]({% link docs/0.1/references/cli/grid-schema-create.1.md %}) |
-| Splinter Support | *Implemented* | Ryan Banks | - | ["splinter"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=splinter) | [HOWTO]({% link docs/0.1/grid_on_splinter.md %}) |
-| Sqlite Support | *Under Development* | Davey Newhall | - | ["sqlite"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=sqlite) | - |
+| Location | *Complete* | Jessie Zamzow | [RFC #20](https://github.com/hyperledger/grid-rfcs/blob/master/text/0020-location.md) | ["location"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=location) | [Specification]({% link docs/0.1/grid_location_smart_contract_specification.md %}) |
+| Pike | *Complete* | Darian Plumb | - | ["pike"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=pike) | [HOWTO]({% link docs/0.1/creating_organizations.md %}), [Specification]({% link docs/0.1/pike_transaction_family.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Pike), [CLI]({% link docs/0.1/references/cli/grid-agent-create.1.md %}) |
+| Product | *Complete* | Adeeb Ahmed | [RFC #5](https://github.com/hyperledger/grid-rfcs/blob/master/text/0005-product.md) | ["product"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=product) | [Overview]({% link docs/0.1/grid_product.md %}), [HOWTO]({% link docs/0.1/creating_products.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Product), [CLI]({% link docs/0.1/references/cli/grid-product-create.1.md %}) |
+| Sawtooth Support | *Complete* | Ryan Banks | - | ["sawtooth"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=sawtooth) | - |
+| Schema | *Complete* | Peter Schwarz | [RFC #4](https://github.com/hyperledger/grid-rfcs/blob/master/text/0000-grid-primitives.md) | ["schema"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=schema) | [Specification]({% link docs/0.1/grid_schema_family_specification.md %}), [REST&nbsp;API](/docs/0.1/api/#tag/Schema), [CLI]({% link docs/0.1/references/cli/grid-schema-create.1.md %}) |
 
 ## Grid 0.2
 
 | Feature | Status | Primary Contact | RFC | Issues | Documentation |
 | ------- | ------ | --------------- | --- | ------- | ------------- |
+| Component | *RFC Submitted* | Shawn T. Amundson | [PR for RFC #9](https://github.com/hyperledger/grid-rfcs/pull/9) | - | - |
+| Griddle | *Discussion* | Ryan Banks | - | - | - |
+| Identity | *RFC Submitted* | Darian Plumb | [RFC #23](https://github.com/hyperledger/grid-rfcs/pull/23) | ["identity"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=label%3A%22epic%3A+grid+identity%22) | - |
+| Inventory | *Discussion* | Darian Plumb | - | - | - |
+| PostgreSQL Support | *Implemented* | Davey Newhall | - | ["postgres"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=postgres) | [CLI]({% link docs/0.1/references/cli/grid-database-migrate.1.md %}) |
 | Product Catalog | *RFC Accepted* | Adeeb Ahmed | [RFC #14](https://github.com/hyperledger/grid-rfcs/blob/master/text/0014-catalog.md) | - | - |
-| Inventory | *Discussion* | Nate Shrader | - | - | - |
-| Track and Trace | *Partial* | - | - | ["track"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=track) | [Specification]({% link docs/0.2/grid_track_and_trace_family_specification.md %}), [REST&nbsp;API](/docs/0.2/api/#tag/Track-and-Trace) |
+| Purchase Order | *Discussion* | Jessie Zamzow | - | - | - |
+| Splinter Support | *Implemented* | Ryan Banks | - | ["splinter"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=splinter) | [HOWTO]({% link docs/0.1/grid_on_splinter.md %}) |
+| Track and Trace | *Implemented* | Darian Plumb | - | ["track"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=track) | [Specification]({% link docs/0.2/grid_track_and_trace_family_specification.md %}), [REST&nbsp;API](/docs/0.2/api/#tag/Track-and-Trace) |
+| Sqlite Support | *Implemented* | Davey Newhall | - | ["sqlite"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=sqlite) | - |
+| Workflow | *Discussion* | Ryan Banks | - | ["workflow RFC"](https://github.com/orgs/hyperledger/projects/1?card_filter_query=label%3A%22epic%3A+workflow+rfc%22) | - |
 
 ## Additional Information
 
